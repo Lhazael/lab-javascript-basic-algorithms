@@ -48,5 +48,6 @@ if (firstLetterHacker1 < firstLetterHacker2){
         console.log(`What?! You both have the same name?`);
      }
 
-     // 3.3 : boucle non terminée puisqu'elle ne prend en compte que la première lettre.
-     // Nous n'avons pas encore trouvé comment faire une demande pour chaque lettre de chaque prénom.
+     // 3.3 : "for" not finished because at this point, it only works on the first letter of each name.
+     // we haven't found a way to work on each letter of each name yet.
+     
