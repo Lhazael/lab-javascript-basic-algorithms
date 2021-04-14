@@ -36,7 +36,7 @@ for (let i = hacker1.length - 1; i >= 0; i--) {
 console.log(nameReversed);
 
 let alphabet = "abcdefghijklmnopqrstuvwxyz"; // 3.3
-const firstLetterHacker1 = alphabet[15];
+const firstLetterHacker1 = alphabet[11];
 const firstLetterHacker2 = alphabet[11];
 if (firstLetterHacker1 < firstLetterHacker2){   
     console.log(`The driver's name goes first`);
@@ -47,3 +47,6 @@ if (firstLetterHacker1 < firstLetterHacker2){
      else if (firstLetterHacker1 === firstLetterHacker2){
         console.log(`What?! You both have the same name?`);
      }
+
+     // 3.3 : boucle non terminée puisqu'elle ne prend en compte que la première lettre.
+     // Nous n'avons pas encore trouvé comment faire une demande pour chaque lettre de chaque prénom.
